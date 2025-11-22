@@ -1,0 +1,56 @@
+[{
+    "nome":"JavaScript",
+    "descricao":"O JS e a linguagem web.",
+    "ano":1995,
+    "link":"https://developer.mozilla.org/pt-BR/docs/Web/JavaScript"
+},
+{
+     "nome":"Python",
+    "descricao":"O Python e a linguagem da ciencia de dados e IA.",
+    "ano":1991,
+    "link":"https://www.python.org/"
+},
+{
+    "nome":"Java",
+    "descricao":"Java é uma linguagem de programação orientada a objetos e multiplataforma.",
+    "ano":1995,
+    "link":"https://www.oracle.com/java/"
+},
+{
+    "nome":"C++",
+    "descricao":"C++ é uma extensão da linguagem C, amplamente usada para software de sistema e jogos.",
+    "ano":1983,
+    "link":"https://isocpp.org/"
+},
+{
+    "nome":"C#",
+    "descricao":"C# (C Sharp) é uma linguagem da Microsoft para desenvolvimento na plataforma .NET.",
+    "ano":2000,
+    "link":"https://learn.microsoft.com/pt-br/dotnet/csharp/"
+},
+{
+    "nome":"PHP",
+    "descricao":"PHP é uma linguagem de script do lado do servidor popular para desenvolvimento web.",
+    "ano":1995,
+    "link":"https://www.php.net/"
+},
+{
+    "nome":"Ruby",
+    "descricao":"Ruby é uma linguagem dinâmica, conhecida pela sua simplicidade e produtividade.",
+    "ano":1995,
+    "link":"https://www.ruby-lang.org/"
+},
+{
+    "nome":"Go",
+    "descricao":"Go (ou Golang) é uma linguagem de programação do Google, focada em eficiência e concorrência.",
+    "ano":2009,
+    "link":"https://go.dev/"
+},
+{
+    "nome":"Swift",
+    "descricao":"Swift é a linguagem de programação da Apple para desenvolver apps para iOS, macOS e mais.",
+    "ano":2014,
+    "link":"https://www.swift.org/"
+}
+
+]
