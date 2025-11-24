@@ -4,38 +4,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Base de Conhecimento</title>
+    <title>Pokédex Pro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="https://icons.iconarchive.com/icons/hektakun/pokemon/128/Pokeball-icon.png" type="image/png">
 </head>
 
 <body>
-    <header>
-        <div>
-            <h1>Base de Conhecimento</h1>
-            <input type="text" name="busca" id="busca" placeholder="Digite o nome ou ID do Pokémon">
-            <button id="botao-busca" aria-label="Buscar Pokémon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="pokeball-icon">
+    <div class="background-glow"></div>
+    <header class="glass-header">
+        <div class="header-content">
+            <div class="logo-container">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="logo-icon">
                     <circle cx="12" cy="12" r="10"></circle>
                     <line x1="2" y1="12" x2="22" y2="12"></line>
                     <circle cx="12" cy="12" r="3"></circle>
                 </svg>
-            </button>
+                <h1>Pokédex</h1>
+            </div>
+            <div class="search-container">
+                <input type="text" name="busca" id="busca" placeholder="Search Pokémon..." autocomplete="off">
+                <button id="botao-busca" aria-label="Buscar Pokémon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    </svg>
+                </button>
+            </div>
         </div>
     </header>
     <main>
         <section class="card-conteiner">
-         
+            <!-- Cards will be injected here -->
         </section>
     </main>
-    <footer class="footer">
-        <ul class="footer-links">
-            <li>
-                <a href="https://github.com/Kokero141">GitHub</a>
-            </li>           
-        </ul>
+    <footer class="footer glass-footer">
+        <div class="footer-content">
+            <p>Designed for Pokémon Masters</p>
+            <ul class="footer-links">
+                <li>
+                    <a href="https://github.com/Kokero141" target="_blank" rel="noopener noreferrer">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                        GitHub
+                    </a>
+                </li>
+            </ul>
+        </div>
     </footer>
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>

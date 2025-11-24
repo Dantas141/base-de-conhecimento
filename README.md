@@ -30,7 +30,7 @@ Para visualizar o projeto, basta seguir os passos abaixo:
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO.git
+   git clone https://github.com/Dantas141/base-de-conhecimento.git
    ```
 2. Navegue até o diretório do projeto.
 3. Abra o arquivo `index.html` no seu navegador de preferência.
@@ -39,7 +39,7 @@ E pronto! Você já pode começar a explorar o mundo Pokémon.
 
 ## 👨‍💻 Autor
 
-Feito com ❤️ por **Daniel Antunes**.
+Feito com ❤️ por **Lucas Dantas**.
 
 - **GitHub:** [@Kokero141](https://github.com/Kokero141)
 
